@@ -1,0 +1,39 @@
+{
+    "posts" : [
+        {
+            "id" : 1,
+            "title" : "React Post",
+            "image" : "/img/image1.jpeg",
+            "author" : "amir",
+            "date" : "Dec 6, 2020",
+            "content" : "the quick brown fox jumps over the lazy dog"
+        },
+        {
+            "id" : 2,
+            "title" : "javascript Post",
+            "image" : "/img/image2.jpeg",
+            "author" : "rana",
+            "date" : "Dec 8, 2020",
+            "content" : "the quick brown fox jumps over the lazy dog"
+        },
+        {
+            "id" : 3,
+            "title" : "python Post",
+            "image" : "/img/image3.jpeg",
+            "author" : "nayem",
+            "date" : "Dec 1, 2020",
+            "content" : "the quick brown fox jumps over the lazy dog"
+        }
+    ],
+    "comments" : [
+        {
+            "id" : 1,
+            "title" : "some comment",
+            "postId" : 1
+        }
+    ],
+    "profile" : {
+        "name" : "typicode"
+    }
+}
+

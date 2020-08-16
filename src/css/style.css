@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    padding: 0 16px;
+}
+/* navbar */
+.navbar{
+    padding: 10px 0;
+    background: cyan;
+}
+/* hero section */
+.hero{
+    color: #ffffff;
+    background: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.781)) ,url(/img/image1.jpeg);
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+}
+.postcard{
+    width: 300px;
+    border: 1px solid #ddd;
+}
+.postContent{
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+}
+.navbar a {
+    text-decoration: none;
+    color: rgb(30, 190, 56);
+}
